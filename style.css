@@ -35,4 +35,39 @@ a:hover {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: box-shadow 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+button {
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: #007acc;
+    outline: none;
 }
